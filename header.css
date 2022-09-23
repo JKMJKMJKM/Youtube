@@ -1,0 +1,151 @@
+.header
+{
+display: flex;
+flex-direction: row;
+height: 42px;
+justify-content: space-between;
+margin-bottom: 10px;
+position: fixed;
+top:0px;
+left: 0px;
+right: 0px;
+height: 50px;
+background-color: white;
+vertical-align: middle;
+z-index: 100;
+}
+.header1
+{
+display: flex;
+flex-direction: row;
+height: 40px;
+justify-content: space-between;
+margin-bottom: 10px;
+}
+
+.header_left
+{
+
+    vertical-align: middle;
+    flex-shrink: 0;
+
+}
+
+.header_middle
+{
+    vertical-align: middle;
+    flex-shrink: 0;
+}
+.header_right
+{
+    vertical-align: middle;
+flex-shrink: 0;
+}
+
+.header_down
+{
+    flex-shrink: 0;
+
+}
+
+.button_ribbon
+{
+cursor: pointer;
+margin-right: 10px;
+height:32px;
+border-radius: 16px;
+background-color: rgba(0,0,0,0.05);
+border-style:solid;
+border-color: rgba(0,0,0,0.1);
+border-width: 1px;
+font-family: roboto,Arial, Helvetica, sans-serif;
+font-size: 14px;
+font-weight: 400;
+color: rgb(3,3,3);
+}
+
+.icon
+{
+    height: 24px;
+    margin-left: 24px;
+    object-fit: contain;
+    object-position: center;
+    vertical-align: middle;
+    margin-top: 15px;
+}
+.icon1
+{
+    height: 30px;
+    margin-left:0px;
+    object-position: center;
+    flex-shrink: 0;
+    vertical-align: middle;
+    margin-top: 15px;
+    
+}
+.icon2
+{
+    height: 30px;
+    margin-left:0px;
+    object-position: center;
+    flex-shrink: 0;
+    vertical-align: top;
+    margin-top: 15px;
+}
+.icon3
+{
+    height: 30px;
+    margin-left:30px;
+    object-position: center;
+    vertical-align: top;
+    margin-top: 15px;
+
+}
+
+.search
+{
+    border-color: rgb(204,204,204);
+    border-width: 1px;
+    color:rgb(17,17,17);
+    font-size: 15px;
+    flex:1;
+    height: 30px;
+    width:400px;
+    margin-top: 15px;
+    vertical-align: top;
+    
+}
+.search ::placeholder
+{
+font-family: roboto,Arial, Helvetica, sans-serif;
+font-size: 15px;
+}
+
+.sidebar
+{
+position: fixed;
+left:0;
+bottom: 0px;
+top:50px;
+width: 83px;
+z-index: 85;
+background-color: white;
+}
+.sidebutten
+{
+margin-left: 5px;
+margin-bottom: 30px;
+width:78px;
+background-color: white;
+border: 0mm;
+cursor: pointer;
+}
+.sideimage
+{
+height:25px;
+
+}
+.sidetext
+{
+    font-size: 9px;
+}
